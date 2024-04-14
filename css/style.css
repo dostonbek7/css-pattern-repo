@@ -26,6 +26,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: #0e1323;
+  font-family: "Rubik";
 }
 
 main {
@@ -39,4 +41,36 @@ main {
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/rubik-v28-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v28-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v28-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/rubik-v28-latin-900.woff2") format("woff2");
 }
